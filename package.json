@@ -1,0 +1,28 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JideTS/svg-logo-maker.git"
+  },
+  "author": "JTS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JideTS/svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/JideTS/svg-logo-maker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "inquirer-maxlength-input-prompt": "^1.0.2",
+    "jest": "24.9"
+  }
+}
