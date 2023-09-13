@@ -53,7 +53,7 @@ inquirer
         // Create function to write SVG file
 
         fs.writeFile("logo.svg", logoCode, (err) =>
-            err ? console.log(err) : console.log('Your logo file was successfully generated.')
+            err ? console.log(err) : console.log('Generated logo.svg')
         );
     });
 
